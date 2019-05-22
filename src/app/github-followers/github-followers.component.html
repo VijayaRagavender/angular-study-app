@@ -1,0 +1,26 @@
+<h2>My Followers <h2>
+<div class="media" *ngFor = "let followers of myFollowers">
+  <div class="media-left media-middle">
+      <img class="avatar media-object" src="{{followers.avatar_url}}" alt="...">
+  </div>
+  <div class="media-body">
+      <h4 class="media-heading">
+         <a [routerLink]= "['/followers', followers.id, followers.login]">{{followers.login}}</a>
+        </h4>
+      <a  [routerLink]= "['/followers', followers.url]" class = "anchorHeading">{{followers.url}}</a>
+    </div>
+</div>
+<!-- The below html code also will yield the same result as above -->
+!<!-- <ul class="media-list" >
+  <li class="media" *ngFor="let followers of myFollowers">
+    <div class="media-left">
+      <a href="#">
+        <img class="avatar media-object" [src]="followers.avatar_url" alt="...">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">{{followers.login}}</h4>
+      <a [href] = "followers.url" class = "anchorHeading">{{followers.url}}</a>
+    </div>
+  </li>
+</ul> -->
