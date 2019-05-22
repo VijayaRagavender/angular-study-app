@@ -123,30 +123,30 @@ AppComponent = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__github_profile_github_profile_component__ = __webpack_require__("../../../../../src/app/github-profile/github-profile.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__not_found_not_found_component__ = __webpack_require__("../../../../../src/app/not-found/not-found.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home_component__ = __webpack_require__("../../../../../src/app/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar_navbar_component__ = __webpack_require__("../../../../../src/app/navbar/navbar.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_gitHub_services__ = __webpack_require__("../../../../../src/app/services/gitHub.services.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_post_service__ = __webpack_require__("../../../../../src/app/services/post.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__titlecasing_titlecasing_pipe__ = __webpack_require__("../../../../../src/app/titlecasing/titlecasing.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__favorite_favorite_component__ = __webpack_require__("../../../../../src/app/favorite/favorite.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__upp_pipe__ = __webpack_require__("../../../../../src/app/upp.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__summary_pipe__ = __webpack_require__("../../../../../src/app/summary.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__fitness_component__ = __webpack_require__("../../../../../src/app/fitness.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__authors_authors_component__ = __webpack_require__("../../../../../src/app/authors/authors.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__authors_service__ = __webpack_require__("../../../../../src/app/authors.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__author_service__ = __webpack_require__("../../../../../src/app/author.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__author_component__ = __webpack_require__("../../../../../src/app/author.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__email_service__ = __webpack_require__("../../../../../src/app/email.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__courses_service__ = __webpack_require__("../../../../../src/app/courses.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__courses_component__ = __webpack_require__("../../../../../src/app/courses.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__angular_common_app_error_handler__ = __webpack_require__("../../../common/app-error-handler.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_app_error_handler__ = __webpack_require__("../../../common/app-error-handler.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__github_profile_github_profile_component__ = __webpack_require__("../../../../../src/app/github-profile/github-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__not_found_not_found_component__ = __webpack_require__("../../../../../src/app/not-found/not-found.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home_component__ = __webpack_require__("../../../../../src/app/home/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navbar_navbar_component__ = __webpack_require__("../../../../../src/app/navbar/navbar.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_gitHub_services__ = __webpack_require__("../../../../../src/app/services/gitHub.services.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_post_service__ = __webpack_require__("../../../../../src/app/services/post.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__titlecasing_titlecasing_pipe__ = __webpack_require__("../../../../../src/app/titlecasing/titlecasing.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__favorite_favorite_component__ = __webpack_require__("../../../../../src/app/favorite/favorite.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__upp_pipe__ = __webpack_require__("../../../../../src/app/upp.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__summary_pipe__ = __webpack_require__("../../../../../src/app/summary.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__fitness_component__ = __webpack_require__("../../../../../src/app/fitness.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__authors_authors_component__ = __webpack_require__("../../../../../src/app/authors/authors.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__authors_service__ = __webpack_require__("../../../../../src/app/authors.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__author_service__ = __webpack_require__("../../../../../src/app/author.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__author_component__ = __webpack_require__("../../../../../src/app/author.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__email_service__ = __webpack_require__("../../../../../src/app/email.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__courses_service__ = __webpack_require__("../../../../../src/app/courses.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__courses_component__ = __webpack_require__("../../../../../src/app/courses.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__navigationbar_navigationbar_component__ = __webpack_require__("../../../../../src/app/navigationbar/navigationbar.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__titlecasing_titlecasing_component__ = __webpack_require__("../../../../../src/app/titlecasing/titlecasing.component.ts");
@@ -210,19 +210,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_21__angular_core__["b" /* NgModule */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_22__angular_core__["b" /* NgModule */])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_24__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_17__courses_component__["a" /* CoursesComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__courses_component__["a" /* CoursesComponent */],
             __WEBPACK_IMPORTED_MODULE_25__navigationbar_navigationbar_component__["a" /* NavigationbarComponent */],
-            __WEBPACK_IMPORTED_MODULE_14__author_component__["a" /* AuthorComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__authors_authors_component__["a" /* AuthorsComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__fitness_component__["a" /* FitnessComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__summary_pipe__["a" /* SummaryPipe */],
-            __WEBPACK_IMPORTED_MODULE_8__upp_pipe__["a" /* UppPipe */],
-            __WEBPACK_IMPORTED_MODULE_7__favorite_favorite_component__["a" /* FavoriteComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__author_component__["a" /* AuthorComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__authors_authors_component__["a" /* AuthorsComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__fitness_component__["a" /* FitnessComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__summary_pipe__["a" /* SummaryPipe */],
+            __WEBPACK_IMPORTED_MODULE_9__upp_pipe__["a" /* UppPipe */],
+            __WEBPACK_IMPORTED_MODULE_8__favorite_favorite_component__["a" /* FavoriteComponent */],
             __WEBPACK_IMPORTED_MODULE_26__titlecasing_titlecasing_component__["a" /* TitlecasingComponent */],
-            __WEBPACK_IMPORTED_MODULE_6__titlecasing_titlecasing_pipe__["a" /* TitleCasingPipe */],
+            __WEBPACK_IMPORTED_MODULE_7__titlecasing_titlecasing_pipe__["a" /* TitleCasingPipe */],
             __WEBPACK_IMPORTED_MODULE_27__panel_panel_component__["a" /* PanelComponent */],
             __WEBPACK_IMPORTED_MODULE_28__likes_likes_component__["a" /* LikesComponent */],
             __WEBPACK_IMPORTED_MODULE_29__input_format_directive__["a" /* InputFormatDirective */],
@@ -234,24 +234,24 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_35__change_password_form_change_password_form_component__["a" /* ChangePasswordFormComponent */],
             __WEBPACK_IMPORTED_MODULE_36__http_posts_http_posts_component__["a" /* HttpPostsComponent */],
             __WEBPACK_IMPORTED_MODULE_37__github_followers_github_followers_component__["a" /* GithubFollowersComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__navbar_navbar_component__["a" /* NavbarComponent */],
-            __WEBPACK_IMPORTED_MODULE_2__home_home_component__["a" /* HomeComponent */],
-            __WEBPACK_IMPORTED_MODULE_1__not_found_not_found_component__["a" /* NotFoundComponent */],
-            __WEBPACK_IMPORTED_MODULE_0__github_profile_github_profile_component__["a" /* GithubProfileComponent */]
+            __WEBPACK_IMPORTED_MODULE_4__navbar_navbar_component__["a" /* NavbarComponent */],
+            __WEBPACK_IMPORTED_MODULE_3__home_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_2__not_found_not_found_component__["a" /* NotFoundComponent */],
+            __WEBPACK_IMPORTED_MODULE_1__github_profile_github_profile_component__["a" /* GithubProfileComponent */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_18__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_19__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_19__angular_forms__["b" /* ReactiveFormsModule */],
-            __WEBPACK_IMPORTED_MODULE_22__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_20__angular_router__["a" /* RouterModule */].forRoot([
+            __WEBPACK_IMPORTED_MODULE_19__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_20__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_20__angular_forms__["b" /* ReactiveFormsModule */],
+            __WEBPACK_IMPORTED_MODULE_23__angular_http__["a" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_21__angular_router__["a" /* RouterModule */].forRoot([
                 {
                     path: '',
-                    component: __WEBPACK_IMPORTED_MODULE_2__home_home_component__["a" /* HomeComponent */]
+                    component: __WEBPACK_IMPORTED_MODULE_3__home_home_component__["a" /* HomeComponent */]
                 },
                 {
                     path: 'followers/:id/:username',
-                    component: __WEBPACK_IMPORTED_MODULE_0__github_profile_github_profile_component__["a" /* GithubProfileComponent */]
+                    component: __WEBPACK_IMPORTED_MODULE_1__github_profile_github_profile_component__["a" /* GithubProfileComponent */]
                 },
                 {
                     path: 'followers',
@@ -263,18 +263,18 @@ AppModule = __decorate([
                 },
                 {
                     path: '**',
-                    component: __WEBPACK_IMPORTED_MODULE_1__not_found_not_found_component__["a" /* NotFoundComponent */]
+                    component: __WEBPACK_IMPORTED_MODULE_2__not_found_not_found_component__["a" /* NotFoundComponent */]
                 },
             ])
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_5__services_post_service__["a" /* PostService */],
-            __WEBPACK_IMPORTED_MODULE_16__courses_service__["a" /* CoursesService */],
-            __WEBPACK_IMPORTED_MODULE_15__email_service__["a" /* EmailService */],
-            __WEBPACK_IMPORTED_MODULE_13__author_service__["a" /* AuthorService */],
-            __WEBPACK_IMPORTED_MODULE_12__authors_service__["a" /* AuthorsService */],
-            __WEBPACK_IMPORTED_MODULE_4__services_gitHub_services__["a" /* GitHubServices */],
-            { provide: __WEBPACK_IMPORTED_MODULE_21__angular_core__["c" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_23__angular_common_app_error_handler__["a" /* AppErrorHandler */] }
+            __WEBPACK_IMPORTED_MODULE_6__services_post_service__["a" /* PostService */],
+            __WEBPACK_IMPORTED_MODULE_17__courses_service__["a" /* CoursesService */],
+            __WEBPACK_IMPORTED_MODULE_16__email_service__["a" /* EmailService */],
+            __WEBPACK_IMPORTED_MODULE_14__author_service__["a" /* AuthorService */],
+            __WEBPACK_IMPORTED_MODULE_13__authors_service__["a" /* AuthorsService */],
+            __WEBPACK_IMPORTED_MODULE_5__services_gitHub_services__["a" /* GitHubServices */],
+            { provide: __WEBPACK_IMPORTED_MODULE_22__angular_core__["c" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_0__angular_common_app_error_handler__["a" /* AppErrorHandler */] }
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_24__app_component__["a" /* AppComponent */]]
     })
