@@ -4,14 +4,19 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --prod",
+    "deploy:firebase" : "ng build env=prod && firebase deploy",
+    "deploy:gh": "ng build --prod --base-href='https://VijayaRagavender.github.io/angular-study-app/' && ngh"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "1.2.3",
+    "@angular/compiler-cli": "^4.0.0",
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.4.7",
     "@angular/compiler": "^4.0.0",
@@ -24,6 +29,7 @@
     "bootstrap": "^4.3.1",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.1",
+    "typescript": "~2.3.3",
     "webpack": "^3.11.0",
     "zone.js": "^0.8.14"
   },

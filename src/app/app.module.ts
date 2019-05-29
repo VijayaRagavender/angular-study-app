@@ -1,3 +1,4 @@
+import { AppErrorHandler } from '@angular/common/app-error-handler';
 import { GithubProfileComponent } from './github-profile/github-profile.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
@@ -22,7 +23,6 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { ErrorHandler } from '@angular/core';
-import { AppErrorHandler } from '@angular/common/app-error-handler';
 
 
 import { AppComponent } from './app.component';
